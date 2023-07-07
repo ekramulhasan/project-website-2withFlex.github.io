@@ -1,0 +1,78 @@
+
+
+/* medium layout: 1200px */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+    .container{
+        width: 970px;
+    }
+} 
+
+
+/* tablet layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    .container{
+        width: 750px;
+    }
+}
+
+
+/* mobile layout: 320px */
+@media only screen and (max-width: 767px){
+
+    .container{
+        width: 300px;
+    }
+
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu ul{
+        margin-top: 10px;
+flex-direction: column;
+align-items: center;
+    }
+
+    .about-single{
+        flex-basis: 100%;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .single-service{
+        flex-basis: 100%;
+margin-bottom: 20px
+    }
+
+    .single-gallery {
+        flex-basis: 48%;
+    
+      }
+
+      .contact-form {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+      }
+
+      .contact-address {
+        flex-basis: 1000%;
+      }
+
+      .about-title h4 {
+        
+        font-size: 26px;
+       
+      }
+}
+
+
+/* wide mobile layout: 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .container{
+        width: 450px;
+    }
+}
